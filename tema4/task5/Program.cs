@@ -12,7 +12,6 @@
                     for (i = 1; i < 10; i++) n *= i;
                     Console.WriteLine("1: {0}", n);
                 }
-                unchecked //блок без проверки
                 unchecked 
                 {
                     n = 1;
