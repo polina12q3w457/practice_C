@@ -24,7 +24,7 @@
             if (index < 0)
                 Console.WriteLine($"Число {k} не найдено в массиве a.");
             else
-                Console.WriteLine($"Число {k} найдено в массиве a на позиции {index}.");
+                Console.WriteLine($"Число {k} найдено в массиве a.");
 
             for (int i = 0; i < 25; i++)
             {
