@@ -13,7 +13,7 @@ namespace task1
 
             foreach (Match match in matches)
             {
-                Console.WriteLine($"IP-адрес: {match.Value}");
+                Console.WriteLine(match.Value);
             }
         }
     }
