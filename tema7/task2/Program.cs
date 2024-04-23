@@ -14,4 +14,3 @@ namespace task2
         }
     }
 }
-D
