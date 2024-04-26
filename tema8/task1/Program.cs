@@ -27,7 +27,6 @@ namespace task1
                 trains[i].DepartureTime = DateTime.Parse(Console.ReadLine());
             }
 
-            // Сортировка по названию пункта назначения
             trains = trains.OrderBy(t => t.Destination).ToArray();
 
             Console.WriteLine("Введите время для поиска поездов (формат: чч:мм):");
