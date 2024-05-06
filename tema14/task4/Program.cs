@@ -6,8 +6,8 @@ namespace task4
     {
         static void Main(string[] args)
         {
-            int[] numbers = Enumerable.Range(0, 100).ToArray(); // Замените этот массив на вашу последовательность чисел
-            int threadCount = 4; // Замените это на количество потоков, которые вы хотите создать
+            int[] numbers = Enumerable.Range(0, 100).ToArray(); 
+            int threadCount = 4;
 
             int chunkSize = numbers.Length / threadCount;
             int[] sums = new int[threadCount];
