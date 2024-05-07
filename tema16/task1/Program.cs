@@ -1,5 +1,5 @@
 ﻿using System.IO;
-    using System.Linq;
+using System.Linq;
 namespace task1
 {
     class Program
