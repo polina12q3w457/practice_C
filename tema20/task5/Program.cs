@@ -13,9 +13,9 @@
                 {
                     sum += i;
                     product *= i;
-                    if (sum > 1000000 || product > 1000000)
+                    if (sum > 1000 || product > 1000)
                     {
-                        Console.WriteLine($"Выполнение прервано для N={N}. Сумма или произведение превысило 10000.");
+                        Console.WriteLine($"Выполнение прервано для N={N}. Сумма или произведение превысило 1000.");
                         state.Break();
                         return;
                     }
