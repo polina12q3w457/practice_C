@@ -5,11 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task1", "task1\task1.csproj", "{C38DB600-5D95-4990-A941-09EB0499D72B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task2", "task2\task2.csproj", "{55DB795A-31FC-4026-9388-78B8EE6B051D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task2", "task2\task2.csproj", "{55DB795A-31FC-4026-9388-78B8EE6B051D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task3", "task3\task3.csproj", "{4F993DEC-3AB0-4D6D-A595-CFDF73B9ED89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task3", "task3\task3.csproj", "{4F993DEC-3AB0-4D6D-A595-CFDF73B9ED89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4", "task4\task4.csproj", "{FEED5085-BF2A-4125-ADF1-787419C36426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task4", "task4\task4.csproj", "{FEED5085-BF2A-4125-ADF1-787419C36426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
