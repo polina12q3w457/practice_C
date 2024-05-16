@@ -141,6 +141,5 @@ namespace WinFormsApp4
             formData += "Предпочитаемый график работы:" + chart + " ";
             textBox4.Text = formData;
         }
-    
     }
 }
