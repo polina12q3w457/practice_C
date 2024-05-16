@@ -30,8 +30,6 @@ namespace WinFormsApp2
             chart1.ChartAreas[0].AxisX.Minimum = Xmin;
             chart1.ChartAreas[0].AxisX.Maximum = Xmax;
             chart1.ChartAreas[0].AxisX.MajorGrid.Interval = Step;
-
-            // Изменяем тип графика на линейный
             chart1.Series[0].ChartType = SeriesChartType.Line;
 
             chart1.Series[0].Points.DataBindXY(x, y);
