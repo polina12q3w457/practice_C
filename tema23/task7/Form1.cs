@@ -12,10 +12,7 @@ namespace task7
             MessageBox.Show("Мы и не сомневались, что Вы так думаете!");
         }
 
-        private void btnno_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void btnno_MouseMove(object sender, MouseEventArgs e)
         {
