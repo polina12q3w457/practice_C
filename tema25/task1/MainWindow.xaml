@@ -13,13 +13,18 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="86*" />
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="289*"/>
+            <ColumnDefinition Width="400*" />
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="textBlockHello" Grid.Row="0" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="textBlockEnterName" Grid.Row="1" Grid.ColumnSpan="2"/>
-        <Button x:Name="buttonRun" Content="Сказать Имя" Grid.Row="2" Width="200" Height="60"/>
-        <Button x:Name="buttonAbout" Content="Справка" Grid.Row="2" Grid.Column="1" Width="200" Height="60"/>
+        <TextBox x:Name="textBlockHello" Grid.Row="0" Grid.ColumnSpan="5" Margin="0,0,0,144" Grid.RowSpan="2"/>
+        <TextBox x:Name="textBlockEnterName" Grid.Row="1" Grid.ColumnSpan="5"/>
+        <Button x:Name="buttonRun" Content="Сказать Имя" Grid.Row="2" Width="200" Height="60" Grid.Column="2" Margin="2,43,100,42" Grid.ColumnSpan="2" Click="buttonRun_Click_1"/>
+        <Button x:Name="buttonAbout" Content="Справка" Grid.Column="4" Width="200" Height="60" Margin="190,10,10,75"/>
+        <Button x:Name="buttonRun_Close" Content="Закрыть" Grid.Row="2" Width="200" Height="60" Grid.Column="4" Margin="100,38,100,47" Click="buttonRun_Close_Click"/>
+        <TextBox x:Name="text_Name" Grid.Column="3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="116,116,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Ведите имя" VerticalAlignment="Top" Width="346" Height="28"/>
     </Grid>
 </Window>
 

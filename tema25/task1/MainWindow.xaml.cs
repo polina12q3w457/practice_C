@@ -39,13 +39,23 @@ namespace task1
             if (string.IsNullOrEmpty(textBlockEnterName.Text)
                 || string.IsNullOrWhiteSpace(textBlockEnterName.Text))
             {
-                input = "world!";
+                input = text_Name.Text; 
             }
             else
             {
                 input = textBlockEnterName.Text;
             }
             textBlockHello.Text = $"{hello} {input}";
+        }
+
+        private void buttonRun_Close_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonRun_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
