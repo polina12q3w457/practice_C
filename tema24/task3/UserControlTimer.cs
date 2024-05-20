@@ -26,5 +26,10 @@ namespace task3
         {
             label1.Text = DateTime.Now.ToLongTimeString();
         }
+
+        private void UserControlTimer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

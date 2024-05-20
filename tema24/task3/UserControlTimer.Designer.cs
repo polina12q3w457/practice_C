@@ -54,6 +54,7 @@
             Controls.Add(label1);
             Name = "UserControlTimer";
             Size = new Size(90, 57);
+            Load += UserControlTimer_Load;
             ResumeLayout(false);
             PerformLayout();
         }
