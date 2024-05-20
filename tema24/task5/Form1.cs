@@ -11,5 +11,10 @@ namespace task5
         {
 
         }
+
+        private void clickButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

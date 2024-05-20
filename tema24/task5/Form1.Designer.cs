@@ -39,6 +39,7 @@
             clickButton1.TabIndex = 0;
             clickButton1.Text = "clickButton1";
             clickButton1.UseVisualStyleBackColor = true;
+            clickButton1.Click += clickButton1_Click;
             // 
             // WinButNum
             // 
