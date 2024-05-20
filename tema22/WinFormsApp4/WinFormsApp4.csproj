@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="E:\практика С#\practice_C\tema24\task6\Form1.cs" Link="Form1.cs" />
+  </ItemGroup>
+
 </Project>
