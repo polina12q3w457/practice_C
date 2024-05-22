@@ -1,0 +1,32 @@
+﻿<Window x:Class="task7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="mainGrid">
+        <Button Content="Треугольник" Margin="48,62,598,217" RenderTransformOrigin="-0.039,0.188">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Polygon Points="0,0 100,0 50,100" Fill="LightBlue" Stroke="Black" StrokeThickness="1"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Круг" Margin="611,62,89,267">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Ellipse Fill="LightGreen" Stroke="Black" StrokeThickness="1"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Пирамида" Margin="335,217,311,168">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Polygon Points="0,30 50,0 100,30" Fill="LightCoral" Stroke="Black" StrokeThickness="1"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>
