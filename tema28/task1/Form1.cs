@@ -16,5 +16,10 @@ namespace task1
             g.FillRectangle(Brushes.Green, 150, 170, 100, 80);
             g.FillPie(Brushes.Red, 200, 200, 100, 100, 0, 90);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
