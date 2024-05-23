@@ -4,7 +4,7 @@ namespace task2
     {
         Graphics g;
         Bitmap baner;
-        Rectangle rct = new Rectangle(); // Initialize the rectangle
+        Rectangle rct = new Rectangle(); 
 
         public Form1()
         {
@@ -29,7 +29,7 @@ namespace task2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            g = CreateGraphics(); // Initialize the Graphics object
+            g = CreateGraphics(); /
         }
 
         private void timer1_Tick(object sender, EventArgs e)
